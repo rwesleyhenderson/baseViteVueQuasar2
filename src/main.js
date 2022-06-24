@@ -2,6 +2,9 @@
 
 import { createApp } from 'vue'
 import { Quasar } from 'quasar'
+import { createRouter, createWebHistory } from 'vue-router'
+import { setupLayouts } from 'virtual:generated-layouts'
+import generatedRoutes from 'virtual:generated-pages'
 
 // Import icon libraries
 import '@quasar/extras/material-icons/material-icons.css'
@@ -14,6 +17,13 @@ import 'quasar/src/css/index.sass'
 // Assumes your root component is App.vue
 // and placed in same folder as main.js
 import App from './App.vue'
+import './index.css'
+
+const routes = setupLayouts(generatedRoutes)
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
 
 const myApp = createApp(App)
 
@@ -32,6 +42,6 @@ myApp.use(Quasar, {
   }
   */
 })
-
+myApp.use(router)
 // Assumes you have a <div id="app"></div> in your index.html
 myApp.mount('#app')

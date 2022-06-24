@@ -10,12 +10,15 @@
   "dependencies": {
     "@quasar/extras": "^1.14.1",
     "quasar": "^2.7.3",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16"
   },
   "devDependencies": {
     "@quasar/vite-plugin": "^1.0.10",
     "@vitejs/plugin-vue": "^2.3.3",
     "sass": "^1.32.12",
-    "vite": "^2.9.9"
+    "vite": "^2.9.9",
+    "vite-plugin-pages": "^0.24.2",
+    "vite-plugin-vue-layouts": "^0.6.0"
   }
 }
