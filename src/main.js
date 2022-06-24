@@ -17,6 +17,7 @@ import 'quasar/src/css/index.sass'
 // Assumes your root component is App.vue
 // and placed in same folder as main.js
 import App from './App.vue'
+import 'uno.css'
 import './index.css'
 
 const routes = setupLayouts(generatedRoutes)

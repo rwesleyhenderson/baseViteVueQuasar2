@@ -8,17 +8,36 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.6.5",
+    "@heroicons/vue": "^1.0.6",
     "@quasar/extras": "^1.14.1",
+    "core-js": "^3.23.2",
+    "esbuild": "^0.14.47",
+    "fs-extra": "^10.1.0",
+    "pinia": "^2.0.14",
+    "pretty-bytes": "^6.0.0",
+    "pusher-js": "^7.1.1-beta",
     "quasar": "^2.7.3",
+    "vite-plugin-live-reload": "^2.1.0",
     "vue": "^3.2.25",
-    "vue-router": "^4.0.16"
+    "vue-router": "^4.0.16",
+    "webpack": "^5.73.0"
   },
   "devDependencies": {
     "@quasar/vite-plugin": "^1.0.10",
     "@vitejs/plugin-vue": "^2.3.3",
-    "sass": "^1.32.12",
+    "@vue/compiler-sfc": "^3.2.37",
+    "autoprefixer": "^10.4.7",
+    "axios": "^0.27.2",
+    "laravel-echo": "^1.12.0",
+    "laravel-mix": "^6.0.49",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.14",
+    "sass": "^1.53.0",
+    "unocss": "^0.39.3",
     "vite": "^2.9.9",
     "vite-plugin-pages": "^0.24.2",
-    "vite-plugin-vue-layouts": "^0.6.0"
+    "vite-plugin-vue-layouts": "^0.6.0",
+    "vue-loader": "^17.0.0"
   }
 }
